@@ -7,6 +7,18 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'verification',
+    loadChildren: () => import('./pages/verification/verification.module').then( m => m.VerificationPageModule)
+  },
+  {
+    path: 'onboard',
+    loadChildren: () => import('./pages/onboard/onboard.module').then( m => m.OnboardPageModule)
+  },
 ];
 
 @NgModule({
