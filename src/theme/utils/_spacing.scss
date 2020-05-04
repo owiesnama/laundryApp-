@@ -1,0 +1,116 @@
+@for $spacing from 1 through 72 {
+
+    .w-#{$spacing}{
+        width: #{$spacing/4}rem
+    }  
+
+    .h-#{$spacing}{
+        height: #{$spacing/4}rem
+    }  
+
+    .m-#{$spacing}{
+        margin: #{$spacing/4}rem
+    }  
+
+    .mr-#{$spacing}{
+        margin-right: #{$spacing/4}rem
+    }  
+
+    .ml-#{$spacing}{
+        margin-left: #{$spacing/4}rem
+    }  
+
+    .mt-#{$spacing}{
+        margin-top: #{$spacing/4}rem
+    }  
+
+    .mb-#{$spacing}{
+        margin-bottom: #{$spacing/4}rem
+    }  
+
+    .mx-#{$spacing}{
+        margin-right:  #{$spacing/4}rem;
+        margin-left:  #{$spacing/4}rem;
+    }  
+
+    .my-#{$spacing}{
+        margin-top: #{$spacing/4}rem ;
+        margin-bottom: #{$spacing/4}rem ;
+     }  
+
+    .p-#{$spacing}{
+        padding: #{$spacing/4}rem
+    }    
+
+    .pb-#{$spacing}{
+        padding-bottom:#{$spacing/4}rem
+    }    
+
+    .pt-#{$spacing}{
+        padding-top: #{$spacing/4}rem
+    }    
+
+    .pr-#{$spacing}{
+        padding-right: #{$spacing/4}rem
+    }    
+
+    .pl-#{$spacing}{
+        padding-left: #{$spacing/4}rem
+    }
+
+    .px-#{$spacing}{
+        padding-right: #{$spacing/4}rem;
+        padding-left: #{$spacing/4}rem;
+    }    
+    
+    .py-#{$spacing}{
+        padding-top: #{$spacing/4}rem;
+        padding-bottom: #{$spacing/4}rem;
+    }    
+    
+  }    
+
+.w-full{
+    width: 100%;
+}
+
+
+.h-full{
+    height: 100%;
+}
+
+
+.h-screen{
+    height: 100vh;
+}
+
+
+.h-1\/2{
+    height: 50%;
+}
+
+.w-1\/2{
+    width: 50%;
+}
+
+
+.w-2\/3{
+    width: 66.6%;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.mt-auto{
+    margin-top: auto;
+}
+
+
+.mb-auto{
+    margin-bottom: auto;
+}
+
+.mr-auto{
+    margin-right: auto;
+}

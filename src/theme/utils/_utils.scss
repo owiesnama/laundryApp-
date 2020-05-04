@@ -1,0 +1,8 @@
+@import "./flex";
+@import "./display";
+@import "./spacing";
+@import "./text";
+
+.border-t {
+    border-top: 1px solid $muted;
+}
