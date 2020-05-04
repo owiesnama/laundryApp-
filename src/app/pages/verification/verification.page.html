@@ -12,10 +12,10 @@
     </div>
 
     <div class="mt-8 -mx-4">
-      <input type="text" class="otp-input" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-      <input type="text" class="otp-input" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-      <input type="text" class="otp-input" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
-      <input type="text" class="otp-input" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+      <input type="text" class="otp-input" type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"  [(ngModel)]="FN"  (keyup)="moveFocus(b,FN)"/>
+      <input type="text" class="otp-input" type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"  [(ngModel)]="SN" #b (keyup)="moveFocus(c,SN)" />
+      <input type="text" class="otp-input" type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"  [(ngModel)]="TN" #c (keyup)="moveFocus(d,TN)" />
+      <input type="text" class="otp-input" type="number" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"  [(ngModel)]="LN" #d (keyup)="handleVirfy()" />
     </div>
 
     <div class="mt-auto flex w-full p-4">

@@ -7,9 +7,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VerificationPage implements OnInit {
 
+
+  public FN:number;
+  public SN:number;
+  public TN:number;
+  public LN:number;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  moveFocus(nextElement,number) {
+    if(number !== undefined && number !== ''&& number !== null)
+    nextElement.focus();
+
+
+  }
+
+  handleVirfy(){
+    console.log(this.FN,this.SN,this.TN,this.LN);
+
+  }
 }
