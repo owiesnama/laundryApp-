@@ -2,10 +2,12 @@ input,
 select {
     &.input {
         display: block;
+        width: 100%;
+        margin-bottom: .75rem;
         border-radius: $border-radius;
         border: 1px solid $muted;
         box-shadow: none;
-        background-color: transparent;
-        padding: 1rem 0.5rem;
+        background-color: white;
+        padding: .5rem 0.25rem;
     }
 }
